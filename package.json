@@ -1,0 +1,22 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Borsbach/Pokemon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Borsbach/Pokemon/issues"
+  },
+  "homepage": "https://github.com/Borsbach/Pokemon#readme",
+  "dependencies": {
+    "mocha": "^6.1.4"
+  }
+}
