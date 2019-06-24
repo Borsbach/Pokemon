@@ -1,0 +1,46 @@
+.main-container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.left-side {
+  width: 47.1%;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  background-image:
+  linear-gradient(45deg, #ccc 25%, transparent 25%), 
+  linear-gradient(135deg, #ccc 25%, transparent 25%),
+  linear-gradient(45deg, transparent 75%, #ccc 75%),
+  linear-gradient(135deg, transparent 75%, #ccc 75%);
+  background-size:25px 25px; /* Must be a square */
+  background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px;
+  width: 5.9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.right-side {
+  width: 47.1%;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  background-color: lightskyblue;
+}
